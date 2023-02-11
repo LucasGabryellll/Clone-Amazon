@@ -2,7 +2,7 @@
 
 <p align="center">
  <img alt="GitHub language count" src=https://github.com/LucasGabryellll/Clone-Amazon/blob/main/assets/AMAZON.jpeg
-
+</p>
 
 ## ⌛ Sobre o projeto:
  - Proposta da 1 VA da cadeira de Desenvolvimento WEB, desenvolver utilizando apenas HTML e CSS o clone da pagina home da,
