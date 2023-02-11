@@ -1,0 +1,83 @@
+#header-page {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  background-color: rgb(17, 26, 33);
+  height: 50px;
+  color: #FFF;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#header-page #logo-header {
+  display: flex;
+  flex-direction: row;
+  width: 15%;
+}
+
+#header-page #logo-header #content-localizacao {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  font-size: 10px;
+  margin-left: 10px;
+}
+
+#icon-localizacao {
+  height: 20px;
+  width: 20px;
+}
+
+#header-page #logo-header #content-localizacao strong {
+  font-size: 12px;
+}
+
+#header-page #content-search {
+  display: flex;
+  border-radius: 3px 0 0 3px;
+  height: 35px;
+  width: 65%;
+}
+
+#button_all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  color: rgb(17, 26, 33);
+  font-size: 12px;
+  width: 30px;
+  border-radius: 3px 0 0 3px;
+}
+
+#header-page #content-search input {
+  width: 85%;
+}
+
+#header-page #content-search button {
+  width: 4%;
+  background-color: #FEBD63;
+  border: 0;
+  border-radius: 0 3px 3px 0;
+}
+
+#header-page #content-direita {
+  display: flex;
+  flex-direction: row;
+  width: 20%; 
+  align-items: center;
+  margin-right: 10px;
+  margin-left: -30px;
+}
+
+#header-page #content-direita .opcoes-content-direita {
+  margin-right: 5px;
+  font-size: 12px;
+}
+
+#select {
+  background-color: rgb(17, 26, 33);
+  color: #FFF;
+  border: 0;
+  padding: 0;
+}

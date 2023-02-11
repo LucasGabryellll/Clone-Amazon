@@ -1,0 +1,83 @@
+#content-banner {
+  margin: 0 8% 0 8%;
+  margin-bottom: 50px;
+  height: 400px;
+}
+
+#banner {
+  background-image: url('../assets/banner.png');
+  height: 205px;
+
+}
+
+#content-informacao {
+  height: 20px;
+  background-color: #F5F7F6;
+  padding: 5px;
+  text-align: center;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+#content-categorias {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+#content-categorias .categoria {
+  display: flex;
+  flex-direction: column;
+  width: 22%;
+  margin-right: 2.5%;
+  background-color: #FFF;
+  padding: 10px;
+}
+
+#content-categorias .categoria h4 {
+  margin-bottom: 5px;
+}
+
+#content-categorias .categoria a {
+  display: inline;
+  margin-top: 5px;
+}
+
+#content-categorias #botao-caixa {
+  display: flex;
+  flex-direction: column;
+  width: 22%;
+  align-items: center;
+}
+
+#div-um {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFF;
+  color: black;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+#div-um button {
+  color: black;
+  text-align: center;
+  border: 0;
+  background-color: #FED813;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  height: 30px;
+}
+
+#div-dois {
+  margin-top: 15px;
+}
+
+#div-dois img {
+  width: 200px;
+}

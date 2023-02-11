@@ -1,0 +1,48 @@
+#menu {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: rgb(35, 47, 63);
+  height: 30px;
+}
+
+#menu #opcoes {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#menu #opcoes #opcoes-esqueda {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+#menu #opcoes #opcoes-direita {
+  font-weight: bold;
+  color: #FFF;
+}
+
+.descricao {
+  margin-right: 20px;
+  color: #FFF;
+  font-size: 15px;
+  text-align: center;
+}
+
+#menu #opcoes #opcoes-esqueda button {
+  background-color: rgb(35, 47, 63);
+  border: 0;
+}
+
+#menu #opcoes #opcoes-esqueda button img:hover {
+  cursor: pointer;
+}
+
+.descricao:hover {
+  cursor: pointer;
+}
